@@ -1,0 +1,89 @@
+/**
+ * ----------------------------------------- NavBar Items ----------------------------------- */
+
+/* ---------------- Home -------------------- */
+#home {
+  color: white;
+}
+#home:hover {
+  color: blue;
+  background-color: white;
+  transition: all 0.3s;
+}
+#homeIcon {
+  display: none;
+}
+#home:hover #homeIcon {
+  display: inline-block;
+  transition: 0.1s;
+}
+
+
+
+/* ---------------- Sports ------------- */
+#sports {
+  color: white;
+}
+#sports:hover {
+  color: red;
+  background-color: white;
+  transition: all 0.3s;
+}
+#sportsIcon {
+  display: none;
+}
+#sports:hover #sportsIcon {
+  display: inline-block;
+  transition: 0.1s;
+}
+
+/* ------------------------ Technology ----------------------- */
+#tech {
+  color: white;
+}
+#tech:hover {
+  color: green;
+  background-color: white;
+  transition: all 0.3s;
+}
+#techIcon {
+  display: none;
+}
+#tech:hover #techIcon {
+  display: inline-block;
+  transition: 0.1s;
+}
+
+/* ------------------------------ Entertainment ----------------------- */
+#entertainment {
+  color: white;
+}
+#entertainment:hover {
+  color: rgb(78, 116, 3);
+  background-color: white;
+  transition: all 0.3s;
+}
+#entertainmentIcon {
+  display: none;
+}
+#entertainment:hover #entertainmentIcon {
+  display: inline-block;
+  transition: 0.1s;
+}
+
+/* ------------------------------ Weather ----------------------- */
+#weather {
+  color: white;
+}
+#weather:hover {
+  color: rgb(9, 91, 91);
+  background-color: white;
+  transition: all 0.3s;
+}
+#weatherIcon {
+  display: none;
+}
+#weather:hover #weatherIcon {
+  display: inline-block;
+  transition: 0.1s;
+}
